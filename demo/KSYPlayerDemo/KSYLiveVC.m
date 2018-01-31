@@ -44,7 +44,7 @@
     [self initLiveVCUI];
     [KSYDBCreater initDatabase];
     
-    [self addNewVerButton];
+    //[self addNewVerButton];
 }
 
 - (void)addNewVerButton {
