@@ -9,7 +9,7 @@
 #import "KSYQRCodeVC.h"
 #import "BaseTapSound.h"
 #import <AVFoundation/AVFoundation.h>
-#import <libksygpulive/KSYMoviePlayerController.h>
+
 
 @interface KSYQRCodeVC ()<AVCaptureMetadataOutputObjectsDelegate,UIActionSheetDelegate>{
     SystemSoundID soundID; //声音

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <KSYMediaPlayer/KSYMoviePlayerController.h>
 
 @interface KSYQRCodeVC : UIViewController
 

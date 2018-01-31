@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <libksygpulive/KSYReachability.h>
+#import <KSYMediaPlayer/KSYReachability.h>
 /**
  ksy自定义视图控制器
  

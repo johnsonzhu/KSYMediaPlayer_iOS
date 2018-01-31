@@ -15,7 +15,7 @@
 #import "KSYSQLite.h"
 #import "KSYDBCreater.h"
 #import "Masonry.h"
-#import "VersionSwitchHandler.h"
+//#import "VersionSwitchHandler.h"
 
 @interface KSYLiveVC ()<UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate>{
     UITextField     *_textFiled;
@@ -59,9 +59,9 @@
     }];
 }
 
-- (void)newVerBtnClicked {
-    [VersionSwitchHandler switchToNewVersion];
-}
+//- (void)newVerBtnClicked {
+//    [VersionSwitchHandler switchToNewVersion];
+//}
 
 - (UITextField *)addTextField{
     UITextField *text = [[UITextField alloc]init];

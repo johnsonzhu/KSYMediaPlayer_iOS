@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-#import <libksygpulive/KSYMoviePlayerController.h>
+#import <KSYMediaPlayer/KSYMoviePlayerController.h>
 
 @class KSYMoviePlayerController;
 
