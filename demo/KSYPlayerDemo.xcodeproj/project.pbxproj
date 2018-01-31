@@ -34,8 +34,8 @@
 		74B9EE2B1C159630003149E9 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B9EE2A1C159630003149E9 /* libbz2.tbd */; };
 		74B9EE2F1C159643003149E9 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B9EE2E1C159643003149E9 /* libstdc++.6.tbd */; };
 		74B9EE311C159649003149E9 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B9EE301C159649003149E9 /* VideoToolbox.framework */; };
-		7837A6DE2021C6D500FCC893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7837A6DC2021C6D500FCC893 /* Main.storyboard */; };
-		7837A6DF2021C6D500FCC893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7837A6DD2021C6D500FCC893 /* LaunchScreen.storyboard */; };
+		780E78C52021E13000A2DCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780E78C42021E13000A2DCAE /* LaunchScreen.storyboard */; };
+		7837A6E22021DF0300FCC893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7837A6E02021DF0300FCC893 /* Main.storyboard */; };
 		7C89723D1C461FBC00535BC8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C89723C1C461FBC00535BC8 /* SystemConfiguration.framework */; };
 		7C9220BA1C984FC9005EF1D1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9220B91C984FC9005EF1D1 /* libsqlite3.tbd */; };
 		955FDFC61CCF3EC300B37F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955FDFC51CCF3EC300B37F54 /* ViewController.m */; };
@@ -109,8 +109,8 @@
 		74B9EE2C1C159638003149E9 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		74B9EE2E1C159643003149E9 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		74B9EE301C159649003149E9 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		7837A6DC2021C6D500FCC893 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		7837A6DD2021C6D500FCC893 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		780E78C42021E13000A2DCAE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7837A6E02021DF0300FCC893 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7C89723C1C461FBC00535BC8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7C9220B91C984FC9005EF1D1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		955FDFC41CCF3EC300B37F54 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -249,9 +249,9 @@
 				95B4A40F1CC085BE00CB6804 /* KSYSQLiteManager.m */,
 				95B4A4101CC085BE00CB6804 /* QRViewController.h */,
 				95B4A4111CC085BE00CB6804 /* QRViewController.m */,
+				7837A6E02021DF0300FCC893 /* Main.storyboard */,
+				780E78C42021E13000A2DCAE /* LaunchScreen.storyboard */,
 				74B9ED671C158675003149E9 /* Assets.xcassets */,
-				7837A6DD2021C6D500FCC893 /* LaunchScreen.storyboard */,
-				7837A6DC2021C6D500FCC893 /* Main.storyboard */,
 				74B9ED6C1C158675003149E9 /* Info.plist */,
 				74B9ED5B1C158675003149E9 /* Supporting Files */,
 			);
@@ -333,9 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7837A6DF2021C6D500FCC893 /* LaunchScreen.storyboard in Resources */,
+				780E78C52021E13000A2DCAE /* LaunchScreen.storyboard in Resources */,
 				74B9ED681C158675003149E9 /* Assets.xcassets in Resources */,
-				7837A6DE2021C6D500FCC893 /* Main.storyboard in Resources */,
+				7837A6E22021DF0300FCC893 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
